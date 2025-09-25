@@ -30,7 +30,7 @@ Special thanks to the original creator [@x1xhlol](https://github.com/x1xhlol) fo
 ### For Documentation Projects:
 
 1. Browse the [`documentation_prompt/`](./documentation_prompt/) folder for specialized templates
-2. Use the curated prompts for generating API documentation, user guides, and technical specifications
+2. Use the curated prompts for generating API documentation, and technical specifications
 3. Leverage the structured formats for consistent documentation across projects
 
 ### For App Development:

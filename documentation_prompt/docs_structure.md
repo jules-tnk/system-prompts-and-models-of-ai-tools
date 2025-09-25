@@ -9,7 +9,7 @@ The documentation structure is designed to support AI agents in building softwar
 ## Standard Project Documentation Structure
 
 ```
-📁 {project-name}-specifications/
+📁 docs/
 ├── 📄 README.md
 ├── 📄 PROJECT_OVERVIEW.md
 ├── 📁 requirements/
