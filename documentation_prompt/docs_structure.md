@@ -6,6 +6,8 @@ This document defines the comprehensive folder structure and file organization t
 
 The documentation structure is designed to support AI agents in building software projects by providing a complete, organized set of specifications that cover all aspects of development from requirements to deployment.
 
+> **Important**: DocuMaster should create only the folders and files that are relevant to the specific project requirements. Not every project needs every folder or file shown in this structure. Adapt the structure based on the actual needs identified from the user's request.
+
 ## Standard Project Documentation Structure
 
 ```
@@ -28,7 +30,7 @@ The documentation structure is designed to support AI agents in building softwar
 │       └── 📄 [use-case-3_use-case-name].mmd || .plantuml
 ├── 📁 architecture/
 │   ├── 📄 system-architecture.md
-│   ├── 📄 system-architecture.mmd || .plantuml
+│   ├── 📄 classes-interfaces.mmd || .plantuml
 │   └── 📄 technology-stack.md
 ├── 📁 api/
 │   ├── 📄 api-specification.md
@@ -38,6 +40,7 @@ The documentation structure is designed to support AI agents in building softwar
 │   └── 📄 database-schema.mmd || .plantuml
 ├── 📁 frontend/
 │   ├── 📄 frontend-specification.md
+│   ├── 📄 component-architecture.mmd || .plantuml
 │   └── 📄 ui-components.md
 ├── 📁 backend/
 │   ├── 📄 backend-specification.md
@@ -122,12 +125,12 @@ Contains all business and technical requirements that drive the implementation.
 
 ### Use Cases Folder (`/use-cases/`)
 
-Contains visual use case diagrams organized by user types, with each use case represented as a separate diagram file.
+Contains visual use case sequence diagrams organized by user types, with each use case represented as a separate sequence diagram file.
 
 **Structure:**
 
 - **Subfolders by User Type**: Create subfolders based on the specific user types for your application
-- **One Diagram per Use Case**: Each use case gets its own diagram file (.mmd or .plantuml)
+- **One Sequence Diagram per Use Case**: Each use case gets its own sequence diagram file (.mmd or .plantuml)
 - **User-Centric Organization**: Group use cases by the type of user who performs them
 
 **File Naming:**
@@ -136,15 +139,15 @@ Contains visual use case diagrams organized by user types, with each use case re
 - Focus on the action or workflow: `create-project.mmd`, `export-data.mmd`
 - Include error scenarios: `failed-login.mmd`, `payment-declined.mmd`
 
-**Diagram Content:**
+**Sequence Diagram Content:**
 
-- **Actors**: Clearly identify the user type and any external systems
-- **Flow Steps**: Step-by-step process from start to completion
-- **Decision Points**: Branch points and alternative paths
-- **Error Handling**: What happens when things go wrong
-- **Success Outcomes**: End state of successful use case completion
+- **Participants**: Clearly identify the user type, system components, and external systems
+- **Message Flow**: Step-by-step interactions between participants over time
+- **Conditional Logic**: Alternative flows and decision points using alt/opt blocks
+- **Error Scenarios**: Error handling flows and exception cases
+- **Activation Boxes**: Show when components are active during the interaction
 
-> **Important**: All diagram text must be simple and concise. Use only plain text with no emojis, special characters, or decorative elements. Keep all labels, node names, and descriptions brief and professional.
+> **Important**: All sequence diagram text must be simple and concise. Use only plain text with no emojis, special characters, or decorative elements. Keep all labels, participant names, and message descriptions brief and professional.
 
 ### Architecture Folder (`/architecture/`)
 
@@ -153,6 +156,7 @@ Defines the overall system design and technical approach.
 **Files:**
 
 - `system-architecture.md`: High-level system design, component relationships, data flow (includes embedded diagrams)
+- `classes-interfaces.mmd || .plantuml`: Class diagrams and interface specifications showing system-level classes, their relationships, inheritance, and dependencies
 - `technology-stack.md`: Technologies, frameworks, tools, dependencies, and technical decisions
 
 ### API Folder (`/api/`)
@@ -180,6 +184,7 @@ Frontend implementation specifications and UI/UX design.
 **Files:**
 
 - `frontend-specification.md`: Architecture, routing, state management, styling approach, performance requirements
+- `component-architecture.mmd || .plantuml`: Class diagrams showing frontend component structure, stores/state management, hooks, services, utilities, and their relationships (e.g., React components, Redux stores, custom hooks, context providers)
 - `ui-components.md`: Component library, design system, user flows, wireframes, responsive design, accessibility
 
 ### Backend Folder (`/backend/`)
