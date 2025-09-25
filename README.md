@@ -29,13 +29,13 @@ Special thanks to the original creator [@x1xhlol](https://github.com/x1xhlol) fo
 
 ### For Documentation Projects:
 
-1. Browse the `Documentation Prompts/` folder for specialized templates
+1. Browse the [`documentation_prompts/`](./documentation_prompts/) folder for specialized templates
 2. Use the curated prompts for generating API documentation, user guides, and technical specifications
 3. Leverage the structured formats for consistent documentation across projects
 
 ### For App Development:
 
-1. Check out the `App Building/` section for full-stack development prompts
+1. Check out the [`app-development-prompts/`](./app-development-prompts/) section for full-stack development prompts
 2. Use the UI/UX focused prompts for creating modern, responsive interfaces
 3. Apply the workflow automation prompts for testing and deployment
 
@@ -50,48 +50,48 @@ Special thanks to the original creator [@x1xhlol](https://github.com/x1xhlol) fo
 
 ### 🔧 **Original AI Tool Prompts**
 
-- [**v0**](./v0%20Prompts%20and%20Tools/) - Vercel's AI-powered React component generator
-- [**Cursor**](./Cursor%20Prompts/) - AI-first code editor prompts and tools
-- [**Claude Code**](./Claude%20Code/) - Anthropic's Claude coding assistant
-- [**Windsurf Agent**](./Windsurf/) - Codeium's AI development environment
-- [**VSCode (Copilot) Agent**](./VSCode%20Agent/) - GitHub Copilot integration prompts
-- [**Replit**](./Replit/) - Online IDE with AI assistance
-- [**Lovable**](./Lovable/) - AI-powered full-stack development
-- [**Devin**](./Devin%20AI/) - Cognition Labs' AI software engineer
-- [**Same.dev**](./Same.dev/) - AI development platform
-- [**Manus**](./Manus%20Agent%20Tools%20&%20Prompt/) - AI agent tools and prompts
-- [**Augment Code**](./Augment%20Code/) - Code augmentation AI tools
+- [**v0**](./system_prompts/v0%20Prompts%20and%20Tools/) - Vercel's AI-powered React component generator 
+- [**Cursor**](./system_prompts/Cursor%20Prompts/) - AI-first code editor prompts and tools
+- [**Claude Code**](./system_prompts/Claude%20Code/) - Anthropic's Claude coding assistant
+- [**Windsurf Agent**](./system_prompts/Windsurf/) - Codeium's AI development environment
+- [**VSCode (Copilot) Agent**](./system_prompts/VSCode%20Agent/) - GitHub Copilot integration prompts
+- [**Replit**](./system_prompts/Replit/) - Online IDE with AI assistance
+- [**Lovable**](./system_prompts/Lovable/) - AI-powered full-stack development
+- [**Devin**](./system_prompts/Devin%20AI/) - Cognition Labs' AI software engineer
+- [**Same.dev**](./system_prompts/Same.dev/) - AI development platform
+- [**Manus**](./system_prompts/Manus%20Agent%20Tools%20&%20Prompt/) - AI agent tools and prompts
+- [**Augment Code**](./system_prompts/Augment%20Code/) - Code augmentation AI tools
 
 ### 🌐 **Web & Chat Platforms**
 
-- [**Perplexity**](./Perplexity/) - AI-powered search and reasoning
-- [**Notion AI**](./NotionAi/) - Workspace AI integration
-- [**Cluely**](./Cluely/) - AI assistant prompts
-- [**Orchids.app**](./Orchids.app/) - Decision-making AI prompts
+- [**Perplexity**](./system_prompts/Perplexity/) - AI-powered search and reasoning
+- [**Notion AI**](./system_prompts/NotionAi/) - Workspace AI integration
+- [**Cluely**](./system_prompts/Cluely/) - AI assistant prompts
+- [**Orchids.app**](./system_prompts/Orchids.app/) - Decision-making AI prompts
 
 ### 🛠 **Development Tools**
 
-- [**Xcode**](./Xcode/) - Apple's IDE AI integration
-- [**Warp.dev**](./Warp.dev/) - Modern terminal with AI features
-- [**Trae AI**](./Trae/) - AI development assistant
-- [**Z.ai Code**](./Z.ai%20Code/) - Code generation AI
-- [**Qoder**](./Qoder/) - AI coding assistant
+- [**Xcode**](./system_prompts/Xcode/) - Apple's IDE AI integration
+- [**Warp.dev**](./system_prompts/Warp.dev/) - Modern terminal with AI features
+- [**Trae AI**](./system_prompts/Trae/) - AI development assistant
+- [**Z.ai Code**](./system_prompts/Z.ai%20Code/) - Code generation AI
+- [**Qoder**](./system_prompts/Qoder/) - AI coding assistant
 
 ### 🔓 **Open Source Projects**
 
-- [**Open Source prompts**](./Open%20Source%20prompts/)
-  - [Codex CLI](./Open%20Source%20prompts/Codex%20CLI/) - OpenAI Codex command line
-  - [Cline](./Open%20Source%20prompts/Cline/) - Claude-powered coding assistant
-  - [Bolt](./Open%20Source%20prompts/Bolt/) - Full-stack web development AI
-  - [RooCode](./Open%20Source%20prompts/RooCode/) - Open-source coding AI
-  - [Lumo](./Open%20Source%20prompts/Lumo/) - AI development environment
-  - [Gemini CLI](./Open%20Source%20prompts/Gemini%20CLI/) - Google's Gemini CLI tools
+- [**Open Source prompts**](./system_prompts/Open%20Source%20prompts/)
+  - [Codex CLI](./system_prompts/Open%20Source%20prompts/Codex%20CLI/) - OpenAI Codex command line
+  - [Cline](./system_prompts/Open%20Source%20prompts/Cline/) - Claude-powered coding assistant
+  - [Bolt](./system_prompts/Open%20Source%20prompts/Bolt/) - Full-stack web development AI
+  - [RooCode](./system_prompts/Open%20Source%20prompts/RooCode/) - Open-source coding AI
+  - [Lumo](./system_prompts/Open%20Source%20prompts/Lumo/) - AI development environment
+  - [Gemini CLI](./system_prompts/Open%20Source%20prompts/Gemini%20CLI/) - Google's Gemini CLI tools
 
 ### 🎮 **Specialized & Experimental**
 
-- [**Poke**](./Poke/) - Experimental AI prompts
-- [**CodeBuddy**](./CodeBuddy%20Prompts/) - AI coding companion
-- [**Junie**](./Junie/) - AI assistant prompts
-- [**Kiro**](./Kiro/) - Multi-mode AI prompts
-- [**Dia**](./dia/) - AI development assistant
-- [**Leap.new**](./Leap.new/) - AI-powered development platform
+- [**Poke**](./system_prompts/Poke/) - Experimental AI prompts
+- [**CodeBuddy**](./system_prompts/CodeBuddy%20Prompts/) - AI coding companion
+- [**Junie**](./system_prompts/Junie/) - AI assistant prompts
+- [**Kiro**](./system_prompts/Kiro/) - Multi-mode AI prompts
+- [**Dia**](./system_prompts/dia/) - AI development assistant
+- [**Leap.new**](./system_prompts/Leap.new/) - AI-powered development platform
