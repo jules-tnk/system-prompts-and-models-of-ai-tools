@@ -29,13 +29,13 @@ Special thanks to the original creator [@x1xhlol](https://github.com/x1xhlol) fo
 
 ### For Documentation Projects:
 
-1. Browse the [`documentation_prompts/`](./documentation_prompts/) folder for specialized templates
+1. Browse the [`documentation_prompt/`](./documentation_prompt/) folder for specialized templates
 2. Use the curated prompts for generating API documentation, user guides, and technical specifications
 3. Leverage the structured formats for consistent documentation across projects
 
 ### For App Development:
 
-1. Check out the [`app-development-prompts/`](./app-development-prompts/) section for full-stack development prompts
+1. Check out the [`app_development_prompt/`](./app_development_prompt/) section for full-stack development prompts
 2. Use the UI/UX focused prompts for creating modern, responsive interfaces
 3. Apply the workflow automation prompts for testing and deployment
 
@@ -50,7 +50,7 @@ Special thanks to the original creator [@x1xhlol](https://github.com/x1xhlol) fo
 
 ### 🔧 **Original AI Tool Prompts**
 
-- [**v0**](./system_prompts/v0%20Prompts%20and%20Tools/) - Vercel's AI-powered React component generator 
+- [**v0**](./system_prompts/v0%20Prompts%20and%20Tools/) - Vercel's AI-powered React component generator
 - [**Cursor**](./system_prompts/Cursor%20Prompts/) - AI-first code editor prompts and tools
 - [**Claude Code**](./system_prompts/Claude%20Code/) - Anthropic's Claude coding assistant
 - [**Windsurf Agent**](./system_prompts/Windsurf/) - Codeium's AI development environment
